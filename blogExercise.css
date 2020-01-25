@@ -1,0 +1,43 @@
+/* 
+Border Color: #bdc3c7
+Date Color: #3498db
+h2 color: #2c3e50
+font: source sans pro
+
+-Left border on 1st Paragraphs
+-Date is in all caps UPPERCASE & has Letter-Spacing
+-Add hr element for horizontal line between post
+--research hr styles to get the thin line
+*/
+
+body {
+  width: 80%;
+  margin: 50px auto;
+  border: 15px solid #bdc3c7;
+  padding: 30px;
+  font-family: 'source sans pro';
+  font-size: 16px;
+}
+
+h1 {
+  color: #3498db;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+h2 {
+  color: #2c3e50;
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.firstparagraph {
+  border-left: 5px solid #bdc3c7;
+  padding-left: 5px;
+}
+
+hr {
+  border: 1px solid rgba(189, 195, 199, 0.333);
+}
